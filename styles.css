@@ -3,27 +3,8 @@
     text-align: center;
 }
 
-nav {
-background-color: lightblue;
-margin: auto;
-}
-
-.navBar {
-    display: flex;
-    justify-content: space-around;
-}
-
-nav, a {
+h1 {
     text-align: center;
-    text-decoration: none;
-    padding: 5px;
-    font-weight: bold;
-}
-
-nav, a:hover {
-    font-size: larger;
-    color: black;
-    transition: 1.5s;
 }
 
 .partnerContainer {
@@ -58,6 +39,7 @@ nav, a:hover {
     border: 2px solid;
     border-radius: 10px;
     width: 30%;
+    padding: 20px;
 }
 
 .contenido {
@@ -65,12 +47,17 @@ nav, a:hover {
     text-align: center;
 }
 
-form {
-    border: 5px;
+.cardContainer {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
 }
 
-button {
-    margin: 5px auto 5px auto;
+.card {
+    border: 2px solid;
+    margin: auto;
 }
 
 footer {
